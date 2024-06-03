@@ -26,6 +26,9 @@ img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB,img)
 
 ```
 from avkans-ndi-utils import AvkansCamera
+import numpy as np
+import cv2
+
 
 cam1 = AvkansCamera()
 
