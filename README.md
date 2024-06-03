@@ -18,8 +18,7 @@ pip install numpy
 Newtek images come in the standard RGB format, but cv2 normally uses BGR format.   You can trivially change between them using cv2 as follows.   If your images come out looking like the color channels are mixed, try this.
 ```
 img=cam.get_cv2_frame()
-        img=cv2.resize(img,(300,169))
-        img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB,img)
+img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB,img)
 ```
 
 ## Example usage
