@@ -24,6 +24,11 @@ img=cam.get_cv2_frame()
 img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB,img)
 ```
 
+## Using with other NDI sources
+Other NDI sources may need to change the recv object to support the bandwidths they use.  You can do this by adding the following line of code back in and choosing the bandwidth based on the NDI options that are supported by your camera.
+```
+ndi_recv_create.bandwidth=ndi.RECV_BANDWIDTH_LOWEST
+```
 ## Example usage
 
 ```
