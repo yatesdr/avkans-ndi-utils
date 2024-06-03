@@ -48,10 +48,6 @@ for i in range(30):
 t=time.time()
 frame = cam1.get_cv2_frame()
 print("Got frame in ",time.time()-t, " seconds.")
-
-t=time.time()
-frame = cam1.get_cv2_frame()
-print("Got frame in ",time.time()-t, " seconds.")
 print("Frame shape:  ",frame.shape)
 
 
