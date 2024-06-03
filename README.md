@@ -10,7 +10,8 @@ This is licensed under the MIT License.
 ## Dependencies
 This is a simple wrapper for the NDI Library, and requires it to work.   It also uses numpy, and it's recommended to install cv2 if you wish to manipulate the images.
 ```
-pip install ndi-python numpy as
+pip install ndi-python
+pip install numpy
 ```
 
 ## Color notes
