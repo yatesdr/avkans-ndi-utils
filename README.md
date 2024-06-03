@@ -4,6 +4,8 @@ A class for getting NDI frames out of Avkans NDI cameras in cv2 compatible forma
 ## Background
 AVKans makes an inexpensive line of cameras that now support NewTek NDI protocol.   This module is intended to make it easy to connect and get cv2 images from these cameras, and likely other NDI sources.   It was originally created as part of an AI face tracker.
 
+This package is not distributed by or endorsed by AVKans or NewTek.
+
 ## License
 This is licensed under the MIT License.
 
