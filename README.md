@@ -12,6 +12,7 @@ This is a simple wrapper for the NDI Library, and requires it to work.   It also
 ```
 pip install ndi-python
 pip install numpy
+pip install opencv-python
 ```
 
 ## Color notes
