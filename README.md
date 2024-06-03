@@ -29,6 +29,10 @@ Other NDI sources may need to change the recv object to support the bandwidths t
 ```
 ndi_recv_create.bandwidth=ndi.RECV_BANDWIDTH_LOWEST
 ```
+
+## Searching for NDI Sources
+The search / discovery function will normally only find sources on the same broadcast domain (i.e. same switch, or hub), but you can connect through a router using the camera IP if needed.    This is a limitation of the NewTek discovery protocol and networking in general, and is expected.
+
 ## Example usage
 
 ```
