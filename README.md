@@ -32,8 +32,9 @@ import cv2
 
 cam1 = AvkansCamera()
 
-# Search for sources
+# Search for sources (optional - you can directly connect by IP if you don't need discovery)
 search_results = cam1.get_sources_as_dict()
+print("Search results: ",search_results)
 
 # Connect by IP
 result = cam1.connect_by_ip("192.168.35.37")
